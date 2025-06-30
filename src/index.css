@@ -1,5 +1,6 @@
 body{
   background:white;
+   font-family: 'Sporting Grotesque', sans-serif;
 }
 @import "tailwindcss";
 @plugin "daisyui";

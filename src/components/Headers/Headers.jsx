@@ -23,16 +23,15 @@ const Headers = ()=>{
                             <p className="text-black text-[18px] font-regular">Building the worlds best marketing websites for over a decade. 
                             Your trusted partner for strategy, design, and dev.</p>
                             <div className="w-[247px]">
-                                <Link className="py-[10px] flex gap-[9px] border-2 
+                            <Link className="py-[10px] flex gap-[9px] border-2 
                                 border-black items-center pr-[12px] rounded-[50px]">
-                           <div className="border-1 border-black rounded-full p-[17px]">
-                            <div className="w-[19.7px] h-[20px]">
-                                <img src="https://i.ibb.co/BV2w2wKP/call.png" className="w-full h-full"
-                           alt="" />
-                            </div>
-                            
-                          </div>
-                         <div>
+                                   <div className="border-1 border-black rounded-full p-[17px]">
+                                     <div className="w-[19.7px] h-[20px]">
+                                       <img src="https://i.ibb.co/BV2w2wKP/call.png" className="w-full h-full"
+                                         alt="" />
+                                     </div>
+                                 </div>
+                            <div>
                          <span className="text-[#000000] text-[16px] leading-[18px]">Schedule a Call</span>
                         </div>
                       </Link>

@@ -17,7 +17,7 @@ const Navbar = ()=>{
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-black text-white rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">Home</a></li>
+        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white font-sporting lg:text-[#000000]">Home</a></li>
         <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">About</a></li>
         <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">Portfolio</a></li>
         <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">Blog</a></li>
@@ -29,7 +29,7 @@ const Navbar = ()=>{
   </div>
   <div className="navbar-center flex gap-[67px] hidden lg:flex">
     <ul className="menu menu-horizontal flex gap-[37px]">
-        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">Home</a></li>
+        <li><a href="#" className="text-[16px] font-regular leading-[18px] font-sporting text-[#000000]">Home</a></li>
         <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">About</a></li>
         <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">Portfolio</a></li>
         <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">Blog</a></li>
