@@ -6,7 +6,7 @@ import Work from "../../components/Work/Work";
 
 const Home = ()=>{
     return(
-        <div>
+        <div className="bg-white">
             <Headers></Headers>
             <Choose></Choose>
             <About></About>

@@ -12,7 +12,7 @@ const Choose = ()=>{
                             <div className="w-[516px]">
                                 <h3 className="text-[58px] font-bold leading-[58px]">My Extensive List of Skills</h3>
                             </div>
-                            <div className="w-[490px] pb-[21px] border-b-2 border-[#ffffff]">
+                            <div className="w-[490px] pb-[21px] border-b-2 border-[#757575]">
                                 <p className="text-[18px] leading-[28px] text-right">Building the worlds best marketing Your trusted
                                  partner for strategy, design, and dev.</p>
                             </div>
