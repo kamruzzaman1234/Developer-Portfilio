@@ -3,21 +3,24 @@ import { Link } from "react-router-dom";
 const Navbar = ()=>{
     return(
 
-<div className="px-[15px] fixed w-full bg-black">
-<div className="navbar flex justify-between items-center py-[40px] bg-[#f9f9f9] px-[35px] shadow-sm">
+        <div className="fixed w-full mx-auto lg:mx-[15px]">
+            <div className="max-w-[1410px] w-full mx-auto">
+                <div className="navbar flex justify-between
+ items-center py-[40px] px-[35px] bg-[#f9f9f9] opacity-80 rounded-b-[40px]
+  ">
   <div className="navbar-start">
     <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+      <div tabIndex={0} role="button" className="btn btn-warning text-black lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">Home</a></li>
-        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">About</a></li>
-        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">Portfolio</a></li>
-        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-[#000000]">Blog</a></li>
+        className="menu menu-sm dropdown-content bg-black text-white rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">Home</a></li>
+        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">About</a></li>
+        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">Portfolio</a></li>
+        <li><a href="#" className="text-[16px] font-regular leading-[18px] text-white lg:text-[#000000]">Blog</a></li>
         
       </ul>
      
@@ -44,6 +47,7 @@ const Navbar = ()=>{
   </div>
   
 </div>
+            </div>
         </div>
     )
 }
