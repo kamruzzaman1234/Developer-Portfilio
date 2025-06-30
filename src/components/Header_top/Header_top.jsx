@@ -5,3 +5,5 @@ const Header_Top = ()=>{
         </div>
     )
 }
+
+export default Header_Top;
