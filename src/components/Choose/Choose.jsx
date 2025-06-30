@@ -1,6 +1,6 @@
 const Choose = ()=>{
     return(
-        <div className="mx-[15px]">
+        <div className="mx-[15px] mt-[-70px]">
             <div className="bg-black py-[80px] rounded-lg">
                 <div className="max-w-[1410px] w-full mx-auto px-[65px]">
                     <div className="flex flex-col gap-[47px]">
@@ -23,7 +23,7 @@ const Choose = ()=>{
                                 <img src="https://i.ibb.co/KpwvRQCh/Group-15-1.png" className="w-full flex justify-end" alt="" />
                             </div>
                             </div>
-                            <div className="grid grid-cols-3 gap-[10px]">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[10px]">
                                 <div className="px-[46px] py-[48px] flex flex-col gap-[20px] bg-[#141414] 
                                 rounded-[30px] hover:scale-105 transition duration-500">
                                     <div className="w-[97px]
