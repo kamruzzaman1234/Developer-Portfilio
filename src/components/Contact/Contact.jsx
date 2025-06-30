@@ -30,8 +30,40 @@ const Contact = ()=>{
                       </Link>
                             </div>
                         </div>
-                        <div className="w-[529px] py-[45px] px-[35px]">
-                    
+                        <div className="w-[529px] bg-black rounded-lg py-[45px] px-[35px] flex flex-col gap-[50px]">
+                            <div>
+                                <form action="" className="flex flex-col gap-[30px]">
+                                <div className="flex flex-col">
+                                    <label htmlFor="name" className="text-gray-400">Enter your name</label>
+                                    <input type="text" className="bg-transparent border-b-2 border-gray-600
+                                     focus:outline-none focus:border-[#CCFF02] text-white placeholder-gray-400"/>
+                                </div>
+                                 <div className="flex flex-col">
+                                    <label htmlFor="name" className="text-gray-400">Your email address</label>
+                                    <input type="text" className="bg-transparent border-b-2 border-gray-600
+                                     focus:outline-none focus:border-[#CCFF02] text-white placeholder-gray-400"/>
+                                </div>
+                                 <div className="flex flex-col">
+                                    <label htmlFor="name" className="text-gray-400">Describe your project</label>
+                                    <input type="text" className="bg-transparent border-b-2 border-gray-600
+                                     focus:outline-none focus:border-[#CCFF02] text-white placeholder-gray-400"/>
+                                </div>
+                                <div className="flex items-center gap-[20px]">
+                                    <div className="w-[127px] h-[54px]">
+                                        <img src="https://i.ibb.co/8L4QQgVJ/Group-37.png" className="w-full h-full" alt="" />
+                                    </div>
+                                    
+                                    <h3>or</h3>
+                                    <div className="w-[184px] h-[54px]">
+                                        <img src="https://i.ibb.co/qLr21Trr/Group-36.png" className="w-full h-full" alt="" />
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                            </div>
+                            <div className="flex justify-end mt-[20px]">
+                                <img src="https://i.ibb.co/LzMc1tF8/Group-16.png" className="w-full h-full object-cover" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
